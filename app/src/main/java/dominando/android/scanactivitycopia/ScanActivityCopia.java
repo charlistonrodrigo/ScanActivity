@@ -99,18 +99,7 @@ public class ScanActivityCopia extends Activity implements Serializable {
                     conteudoArquivo = n.getText().toString();
 
                     if( n.getText().toString().trim().isEmpty() ) {
-                   /*
-                    AlertDialog.Builder builder = new AlertDialog.Builder(ScanActivityCopia.this);
-                    builder.setMessage(" Cancelled! Subtrair uma unidade no valor final da lista de objetos.")
-                            .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialogInterface, int which) {
-                                    Toast.makeText(ScanActivityCopia.this, "Ok! Digite novamente. " , Toast.LENGTH_SHORT).show();
-                                }
-                            });
-                    alerta = builder.create();
-                    alerta.show();
-*/
+
                         Toast.makeText(ScanActivityCopia.this, "Erro! Digite o codigo novamente. ", Toast.LENGTH_SHORT).show();
                         cont = cont - 1;
                     }
@@ -135,56 +124,7 @@ public class ScanActivityCopia extends Activity implements Serializable {
                         n.setText(" ");
                         // Arrays.sort(vetor);
                     }
-                    //comparatorArrayList.add(Codigo);
 
-
-                    //    }
-
-            //        for (String letra:Codigo
-            //        ) {
-
-             //          fos.write(letra.getBytes());
-             //       }
-     /*
-                    String conteudoArquivo2 = n1.getText().toString();
-                    conteudoArquivo = conteudoArquivo2;
-
-                    int i = 0;
-
-                    // final Set<String> Codigo = new TreeSet<>();
-
-                    if(Codigo != null) {
-                        Codigo.add( conteudoArquivo);
-                    }else{
-                        conteudoArquivo2 = n1.getText().toString();
-                        conteudoArquivo = conteudoArquivo2;
-                        Codigo.add(conteudoArquivo );
-                    }
-
-                    for (String letra: Codigo
-                    ) {
-                        fos.write(letra.toString().getBytes());
-                        // Arrays.sort(vetor);
-                    }
-
-                    try(BufferedReader br = new BufferedReader(new FileReader(filename))){
-
-                        String nome = br.readLine();
-                        while (nome != null){
-                            list.add(nome);
-                            nome = br.readLine();
-                        }
-                        //Collections.sort(list);
-                        for (String palavra: list
-                        ) {
-                            fout.write(palavra.toString().getBytes());
-                            fout.write("\n".getBytes());
-                        }
-
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-*/
 
                   //  contador = String.valueOf(cont);
                     contador = String.valueOf(cont);
@@ -272,12 +212,6 @@ public class ScanActivityCopia extends Activity implements Serializable {
 
         }
 
-       // String  vetor[] = new String[4];
-
-
-       // final Set<String> Codigo = new TreeSet<>();
-       // final Set<String> list = new TreeSet<>();
-        //String path1 = "data\\data\\dominando.android.scanactivitycopia\\files\\Scann.txt";
         File internalStorageDir = getExternalFilesDir(null);
 
         if(!internalStorageDir.exists()){
@@ -298,18 +232,6 @@ public class ScanActivityCopia extends Activity implements Serializable {
             final FileOutputStream fos = new FileOutputStream(filename);
             FileOutputStream fout = new FileOutputStream(path1);
 
-/*
-            final EditText n = (EditText) findViewById(R.id.n1);
-
-            // Scanner ler = new Scanner(System.in);
-            conteudoArquivo = n.getText().toString();
-            Codigo.add(conteudoArquivo);
-            // fos.write(Codigo.toString().getBytes());
-
-*/
-
-           // Scanner ler = new Scanner(System.in);
-
             conteudoArquivo = content.getText().toString();
             //String conteudoArquivo2 = content.getText().toString();
             if( content.getText().toString().length() != 13) {
@@ -321,20 +243,10 @@ public class ScanActivityCopia extends Activity implements Serializable {
            // conteudoArquivo = content.getText().toString();
             int i = 0;
 
-           // final Set<String> Codigo = new TreeSet<>();
-
-           // final EditText n1 = (EditText) findViewById(R.id.n1);
-
             if(Codigo != null) {
                Codigo.add( conteudoArquivo);
                 cont = cont + 1;
             }
-            // Limpar o arquivo antes de gravar.  ////////   For de baixo e o que funciona com tudo.
-
-           // Codigo.removeIf(x -> x.length() < 13);
-            //Codigo.removeIf(conteudoArquivo ->conteudoArquivo.length() <= 12 );
-
-           // Codigo.remove( content.getText().toString());
 
 
             for (String letra: Codigo
@@ -380,12 +292,6 @@ public class ScanActivityCopia extends Activity implements Serializable {
             e.printStackTrace();
         }
 
-
-
-
-    //    cont = cont + 1;    ***********************
-
-
     }
 
 
@@ -424,10 +330,6 @@ public class ScanActivityCopia extends Activity implements Serializable {
                Toast.makeText(this, "permission DENIED", Toast.LENGTH_SHORT).show();
            }
     }
-
-
-
-
 
         }
 

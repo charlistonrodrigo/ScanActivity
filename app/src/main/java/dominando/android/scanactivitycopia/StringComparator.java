@@ -10,45 +10,9 @@ import java.util.TreeSet;
 
 public class StringComparator  {
 
-/*
-    public StringComparator codigo1;
-    public StringComparator codigo2;
-
-
-    public int Comparator() {
-        return Comparator(codigo1,codigo2 );
-    }
-
-    public int Comparator (@NotNull StringComparator codigo1, @NotNull StringComparator codigo2){
-        this.codigo1 = codigo1;
-        this.codigo2 = codigo2;
-        return codigo1.getCodigo() - codigo2.getCodigo();
-    }
-        public int codigo;
-
-        public int getCodigo() {
-
-        return codigo;
-    }
-*/
 
       public static void main(String[] args){
-         /* final ArrayList<String> Codigo = new ArrayList<>();
-          Scanner sc = new Scanner(System.in);
 
-          for(int i = 1;i < 4;i ++) {
-              Codigo.add(sc.nextLine());
-          }
-          //comparatorArrayList.add(Codigo);
-          Codigo.add(2,"ju123br");
-          //    }
-          Collections.sort(Codigo);
-          for (String letra:Codigo
-          ) {
-
-              System.out.print(letra+" ");
-          }
-          */
 
           Set<String> list = new TreeSet<>();
 
