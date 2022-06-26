@@ -15,3 +15,12 @@ Este procedimento e realizado apenas uma vez. A verificação dos registros inse
 no arquivo.txt de nome "Scanning.txt". Ou poderá ser visualizado no diretório interno no arquivo de nome "correcao.txt".
 
 ## Layout
+
+<p align="center">
+  <img width="600" src="">
+ 
+</P>
+
+## Como execultar o projeto
+
+Para execultar o projeto basta importa-lo 
