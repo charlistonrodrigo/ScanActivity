@@ -1,5 +1,5 @@
 
-[![NPM](https://img.shields.io/npm/l/react)]
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/charlistonrodrigo/ScanActivity/tree/add-license-1)
 
 # ScanActivity
 
