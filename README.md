@@ -18,7 +18,7 @@ no arquivo.txt de nome "Scanning.txt". Ou poderá ser visualizado no diretório 
 ## Layout
 
 <p align="center">
-  <img width="600" src="Scan1.png">
+  <img width="800" src="Scan1.png">
  
 </P>
 
