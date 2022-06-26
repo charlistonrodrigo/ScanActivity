@@ -2,7 +2,7 @@
 
 ## Sobre
 
-Este projeto foi desenvolvido com a finalidade de ler objetos com códigos de barra, armazenar em um arquivo local e informar a quantidade de objetos inseridos.
+Este e um aplicativo mobile desenvolvido com a finalidade de ler objetos com códigos de barra, armazenar em um arquivo local e informar a quantidade de objetos inseridos.
 A inserção pode ser realizada por um leitor de código barras que e acionado através de um botão ou mesmo pela digitação do código do objeto e envio após acionar 
 o botão write. Este aplicativo não permite o duplicamento de código, realizando um registro unico para cada objeto.
 
