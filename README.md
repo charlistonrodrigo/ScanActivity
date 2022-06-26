@@ -17,10 +17,11 @@ no arquivo.txt de nome "Scanning.txt". Ou poderá ser visualizado no diretório 
 ## Layout
 
 <p align="center">
-  <img width="600" src="">
+  <img width="600" src="Scan1.png">
  
 </P>
 
 ## Como execultar o projeto
 
-Para execultar o projeto basta importa-lo 
+Para execultar o projeto basta clonar o link direto do github em New no computador no repósitorio de sua preferência, ou se preferir pode fazer o apk do aplicativo
+por meio de uma conexão usb entre o aparelho celular e computador que tenha o aplicativo instalado.
