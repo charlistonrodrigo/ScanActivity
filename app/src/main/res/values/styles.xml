@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+<string name="message_permission_requested">Voce tem q habilitar essa permissão</string>
+    <string name="permission_granted_">Permissao concedida</string>
+    <string name="permission_denied">Permissão negada</string>
+</resources>
